@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wendy.yenko.Scanner"
+    android:background="@drawable/allpages2"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:layout_weight="0.68"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="157dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logosmall" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="Hi There\nHeaded Somewhere?"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="121dp"
+            app:srcCompat="@drawable/loc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="Scan Taxi QR Code To Start And Monitor Your Journey"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.36">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/buttonScanner"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_qr"
+                />
+            <TextView
+                android:id="@+id/tvScan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:text="Scan Barcode"
+                android:textSize="10dp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/btnProfile"
+                android:layout_width="63dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_profile"/>
+            <TextView
+                android:id="@+id/tvProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:fontFamily="casual"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/btnTutorial"
+                android:layout_width="63dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_tutorial"/>
+            <TextView
+                android:id="@+id/tvTutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="casual"
+                android:text="Tutorial"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
